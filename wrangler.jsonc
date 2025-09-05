@@ -1,6 +1,9 @@
 {
   "name": "dayserverwebsite",
-  "main": "dist/index.js",
+  "site": {
+    "bucket": "./dist",
+    "entry-point": "workers-site"
+  },
   "type": "javascript",
   "account_id": "YOUR_ACCOUNT_ID",
   "workers_dev": true,
