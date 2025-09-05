@@ -1,0 +1,7 @@
+{
+  "name": "cloudflare-website-dayserver",
+  "compatibility_date": "2025-08-05",
+  "assets": {
+    "not_found_handling": "single-page-application"
+  }
+}
