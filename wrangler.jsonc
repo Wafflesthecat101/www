@@ -1,21 +1,13 @@
 {
   "name": "dayserverwebsite",
-  "site": {
-    "bucket": "./dist",
-    "entry-point": "workers-site"
-  },
-  "type": "javascript",
-  "account_id": "YOUR_ACCOUNT_ID",
   "workers_dev": true,
-  "route": "",
-  "zone_id": "",
-
+  
   "build": {
     "command": "npm run build",
-    "upload_format": "service-worker"
+    "watch_dir": "dist"
   },
 
-  "assets": {
-    "directory": "./dist"  // <--- this tells Wrangler where your built Vite files are
+  "site": {
+    "bucket": "./dist"
   }
 }
